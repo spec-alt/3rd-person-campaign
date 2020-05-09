@@ -904,3 +904,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.09-13.52.58:455][  0]LogAssetRegistry: Asset discovery search completed in 19.2786 seconds
 [2020.05.09-13.52.58:459][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
 [2020.05.09-13.52.58:460][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.09-14.03.58:577][229]LogHttp: Warning: 0000020FCE3F4180: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9F605A81-4506-226A-0E4C-9C9BE2C6DC80%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=51ae096a4c7d8d09533be79f5f07c6d5%7C7b4a40a2b0134f20bf8679c3c6874646%7C64fe62c5-12a9-45e7-9cfc-448bd5946dfd&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.09-14.03.58:577][229]LogHttp: Warning: 0000020FCE3F4180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.05.09-14.03.58:577][229]LogHttp: Warning: 0000020FCE3F4180: libcurl info message cache 0 (Connection 2 seems to be dead!)
+[2020.05.09-14.03.58:577][229]LogHttp: Warning: 0000020FCE3F4180: libcurl info message cache 1 (Closing connection 2)
+[2020.05.09-14.03.58:577][229]LogHttp: Warning: 0000020FCE3F4180: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.05.09-14.03.58:577][229]LogHttp: Warning: 0000020FCE3F4180: libcurl info message cache 3 (Closing connection 3)
+[2020.05.09-14.03.58:909][230]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9F605A81-4506-226A-0E4C-9C9BE2C6DC80%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=51ae096a4c7d8d09533be79f5f07c6d5%7C7b4a40a2b0134f20bf8679c3c6874646%7C64fe62c5-12a9-45e7-9cfc-448bd5946dfd&AppEnvironment=datacollector-binary&UploadType=eteventstream
